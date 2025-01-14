@@ -53,7 +53,7 @@ header h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
     margin-bottom: 20px;
 }
-header p{
+header > p{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
     font-size: 1.2em;
     font-family: var(--fonte-padrao);
@@ -61,7 +61,7 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
 }
 menu{
     background-color: var(--cor5);
